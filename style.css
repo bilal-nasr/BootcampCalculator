@@ -110,3 +110,9 @@ main{
     padding-left: 1rem;
 
 }
+
+.btn-primary{
+    background-color: var(--primary-blue);
+    font-size: large;
+    border-radius: 3px;
+}
