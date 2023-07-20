@@ -87,7 +87,7 @@ main{
     width: 75%;
     padding: 20px;
     position:absolute;
-    bottom:-20px;
+    bottom:-80px;
     background-color: white;
     margin:0 0 0 100px;
 }
@@ -95,6 +95,7 @@ main{
 .gpa-container> div {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .gpa-container>div>select{
@@ -116,3 +117,9 @@ main{
     font-size: large;
     border-radius: 3px;
 }
+
+.semesterClass::after {
+    content: "\A";
+    white-space: pre;
+  }
+
